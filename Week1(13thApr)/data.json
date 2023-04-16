@@ -1,0 +1,96 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Can I pay with a credit card?",
+          "What payment methods do you accept?",
+          "How do I pay for my order?"
+        ],
+        "responses": [
+          "Yes, we accept all major credit cards",
+          "You can pay with cash or credit card",
+          "We accept Visa, Mastercard, and American Express"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Thanks for your help",
+          "Goodbye",
+          "See you later",
+          "Bye",
+          "Take care"
+        ],
+        "responses": [
+          "You're welcome! Have a great day",
+          "Goodbye!",
+          "See you soon",
+          "Take care!"
+        ]
+      },
+      {
+        "tag": "item_list",
+        "patterns": [
+          "What do you have on the menu?",
+          "Can you show me the menu?",
+          "What are your specialties?",
+          "What dishes do you recommend?"
+        ],
+        "responses": [
+          "We have a wide selection of dishes on our menu, including burgers, sandwiches, salads, and more",
+          "Here's our menu! (provide link or attachment)",
+          "Our specialties include our signature burger and our homemade fries",
+          "We recommend trying our grilled chicken sandwich or our Caesar salad"
+        ]
+      },
+      {
+        "tag": "item_recommendation",
+        "patterns": [
+          "What's your best dish?",
+          "What do you recommend?",
+          "What's your most popular item?",
+          "What's your personal favorite?"
+        ],
+        "responses": [
+          "Our most popular item is our signature burger, it's definitely a must-try!",
+          "I recommend trying our grilled chicken sandwich, it's a customer favorite",
+          "My personal favorite is our veggie wrap, it's so delicious!",
+          "Our homemade fries are a customer favorite, definitely worth trying!"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke",
+          "Do you have any funny stories?",
+          "Can you make me laugh?",
+          "What's the funniest thing that's happened here?"
+        ],
+        "responses": [
+          "Why did the tomato turn red? Because it saw the salad dressing!",
+          "One time, a customer asked for a 'burger without the burger'...they just wanted the bun and the toppings!",
+          "I'm not a comedian, but I can tell you that our food is delicious!",
+          "One time, a customer tried to order a pizza from us...we had to explain that we're a cafe, not a pizza place!"
+        ]
+      }
+    ]
+  }
+  

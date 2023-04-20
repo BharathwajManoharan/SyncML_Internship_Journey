@@ -17,8 +17,6 @@ The following packages will be installed:
 *scipy
 *matplotlib
 
-## Usage
-
 ## Train the model
 Run train.py to train the model. This script will preprocess the dataset, create the model, train it on the preprocessed data, and save the trained model as mask_detection_model.h5. You can modify the hyperparameters in config.py.
 

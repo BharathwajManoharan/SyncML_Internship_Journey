@@ -9,13 +9,13 @@ To use this project, follow the steps below:
 
 The following packages will be installed:
 
-*tensorflow
-*numpy
-*imutils
-*keras
-*opencv-python
-*scipy
-*matplotlib
+* tensorflow
+* numpy
+* imutils
+* keras
+* opencv-python
+* scipy
+* matplotlib
 
 ## Train the model
 Run train.py to train the model. This script will preprocess the dataset, create the model, train it on the preprocessed data, and save the trained model as mask_detection_model.h5. You can modify the hyperparameters in config.py.

@@ -1,0 +1,17 @@
+The average characteristics of middle-class people in Boston that could affect the housing prices could be:
+
+CRIM (per capita crime rate by town): 0.05 to 0.10
+ZN (proportion of residential land zoned for lots over 25,000 sq.ft.): 0 to 15%
+INDUS (proportion of non-retail business acres per town): 10% to 25%
+NOX (nitric oxides concentration (parts per 10 million)): 0.35 to 0.5
+RM (average number of rooms per dwelling): 5 to 6
+AGE (proportion of owner-occupied units built prior to 1940): 30% to 50%
+DIS (weighted distances to five Boston employment centres): 2 to 5
+RAD (index of accessibility to radial highways): 5 to 10
+TAX (full-value property-tax rate per $10,000): $400 to $700
+PTRATIO (pupil-teacher ratio by town): 16 to 19
+B (1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town): 300 to 400
+LSTAT (% lower status of the population): 8% to 12%
+Note: The above values are just rough estimates and should not be taken as absolute values. The actual values may vary depending on various factors such as the location, time period, and other socioeconomic factors.
+
+RENT COST is found!

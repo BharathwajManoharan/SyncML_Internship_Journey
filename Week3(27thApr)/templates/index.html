@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Boston House Price Prediction</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<div class="container">
+		<h1>Boston House Price Prediction</h1>
+		<form action="{{ url_for('predict') }}" method="post">
+			<label for="CRIM">Per capita crime rate by town:</label>
+			<input type="number" name="CRIM" step="0.01" required>
+
+			<label for="ZN">Proportion of residential land zoned for lots over 25,000 sq.ft.:</label>
+			<input type="number" name="ZN" step="0.01" required>
+
+			<label for="INDUS">Proportion of non-retail business acres per town:</label>
+			<input type="number" name="INDUS" step="0.01" required>
+
+			<label for="NOX">Nitric oxides concentration (parts per 10 million):</label>
+			<input type="number" name="NOX" step="0.01" required>
+
+			<label for="RM">Average number of rooms per dwelling:</label>
+			<input type="number" name="RM" step="0.01" required>
+
+			<label for="AGE">Proportion of owner-occupied units built prior to 1940:</label>
+			<input type="number" name="AGE" step="0.01" required>
+
+			<label for="DIS">Weighted distances to five Boston employment centres:</label>
+			<input type="number" name="DIS" step="0.01" required>
+
+			<label for="RAD">Index of accessibility to radial highways:</label>
+			<input type="number" name="RAD" step="1" required>
+
+			<label for="TAX">Full-value property-tax rate per $10,000:</label>
+			<input type="number" name="TAX" step="1" required>
+
+			<label for="PTRATIO">Pupil-teacher ratio by town:</label>
+			<input type="number" name="PTRATIO" step="0.01" required>
+
+			<label for="B">1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town:</label>
+			<input type="number" name="B" step="0.01" required>
+
+			<label for="LSTAT">% lower status of the population:</label>
+			<input type="number" name="LSTAT" step="0.01" required>
+
+			<input type="submit" value="Predict">
+		</form>
+	</div>
+</body>
+</html>

@@ -23,3 +23,5 @@ These can be installed using pip.
 
 # Acknowledgments
 The project uses the sign_mnist_train.csv and sign_mnist_valid.csv datasets from Kaggle (https://www.kaggle.com/datamunge/sign-language-mnist)
+
+DATASET: https://mega.nz/folder/keJjSDDB#FTlzWrA90NzzH5U_R3t0hQ

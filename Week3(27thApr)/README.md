@@ -31,7 +31,3 @@ To predict the median value of a house, run the predict.py script and input the 
 ## Credits
 
 The dataset used in this project is the Boston Housing dataset, which was originally published by Harrison, D. and Rubinfeld, D.L. in 1978.
-
-
-
-

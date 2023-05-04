@@ -21,5 +21,5 @@ These can be installed using pip.
 * Run ASL_Model Generation.py to generate and save the ASL recognition model.
 * Run Hand Detection using model generated from above code.py to load the saved model and recognize the ASL alphabet in images of hands. You can modify the file to test your own images.
 
-$ Acknowledgments
+# Acknowledgments
 The project uses the sign_mnist_train.csv and sign_mnist_valid.csv datasets from Kaggle (https://www.kaggle.com/datamunge/sign-language-mnist)

@@ -24,4 +24,4 @@ Run train.py to train the model. This script will preprocess the dataset, create
 Run detect_mask.py to launch the real-time face mask detection application. This script will load the trained model from mask_detection_model.h5 and use it to predict whether a person is wearing a face mask or not in real-time.
 
 ## Credits
-The dataset used to train the model was created by Prajna Bhandary and Adrian Rosebrock. The base architecture used in this project is MobileNetV2.
+The dataset used to train the model was created by Prajna Bhandary and Adrian Rosebrock. The base architecture used in this project is MobileNetV2. 

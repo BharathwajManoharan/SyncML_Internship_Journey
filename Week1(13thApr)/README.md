@@ -22,4 +22,4 @@ Run train.py to train the model. Once the model is trained, it will be saved to 
 ## Step 5: Run the application
 Run app.py to launch the application. If the model was trained and saved successfully in the previous step, the application should work as expected.
 
-That's it! You should now be able to run the application and use the trained model. If you encounter any issues, feel free to open an issue on this repository.
+That's it! You should now be able to run the application and use the trained model. If you encounter any issues, feel free to open an issue on this repository. 
